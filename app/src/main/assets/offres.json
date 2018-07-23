@@ -1,0 +1,77 @@
+{
+  "name": "offrestaurants",
+  "total_results": 10,
+  "results": [
+    {
+      "name": "رستوران ناریجه",
+      "place": "سعادت آباد",
+      "foodcat": "ساندویچ، پیتزا، برگر، فست فود",
+      "deliverprice": "4000",
+      "image": "sample1"
+      
+    },
+    {
+      "name": "رستوران ولنجک",
+      "place": "ولنجک-بیست و چهارم",
+      "foodcat": "غذای سنتی ایرانی",
+      "deliverprice": "2500",
+      "image": "sample2"
+    },
+    {
+      "name": "رستوران هایدا",
+      "place": "تجریش",
+      "foodcat": "دیزی، آبگوشت",
+      "deliverprice": "10000",
+      "image": "sample3"
+    },
+    {
+      "name": "رستوران ونک",
+      "place": "ونک",
+      "foodcat": "فست فود، پیتزا، برگر",
+      "deliverprice": "4000",
+      "image": "sample4"
+    },
+    {
+      "name": "رستوران اکبر جوجه",
+      "place": "ولی عصر",
+      "foodcat": "چلوگوشت، چلومرغ، چلوجوجه",
+      "deliverprice": "5000",
+      "image": "sample5"
+    },
+    {
+      "name": "رستوران پسران کریم",
+      "place": "سعادت آباد",
+      "foodcat": "سنتی ایرانی",
+      "deliverprice": "2000",
+      "image": "sample6"
+    },
+    {
+      "name": "رستوران ناریجه1",
+      "place": "فرشته",
+      "foodcat": "فرانسوی",
+      "deliverprice": "6000",
+      "image": "sample7"
+    },
+    {
+      "name": "2رستوران ناریجه",
+      "place": "چمران",
+      "foodcat": "ایتالیایی",
+      "deliverprice": "10000",
+      "image": "sample8"
+    },
+    {
+      "name": "3رستوران ناریجه",
+      "place": "همت",
+      "foodcat": "چینی",
+      "deliverprice": "4000",
+      "image": "sample2"
+    },
+    {
+      "name": "رستوران ناریجه4",
+      "place": "درکه",
+      "foodcat": "دیزی سنگی، آبگوشت، کوفته",
+      "deliverprice": "6000",
+      "image": "sample4"
+    }
+  ]
+}

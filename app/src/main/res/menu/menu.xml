@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/interAccount"
+
+            android:title="ورود به حساب کاربری"
+            android:icon="@drawable/key" />
+
+        <item
+            android:id="@+id/creditInc"
+            android:icon="@drawable/creditcard"
+            android:title="افزودن اعتبار" />
+
+        <item
+            android:id="@+id/orderlist"
+            android:icon="@drawable/orderlist"
+            android:title="لیست سفارش" />
+
+        <item
+            android:id="@+id/favirotes"
+            android:icon="@drawable/favirotes"
+            android:title="مورد علاقه ها" />
+
+        <item
+            android:id="@+id/friendInv"
+            android:icon="@drawable/link"
+            android:title="معرفی به دوستان" />
+
+
+        <item
+            android:id="@+id/maintainance"
+            android:icon="@drawable/support"
+            android:title="پشتیبانی" />
+
+
+        <item
+            android:id="@+id/exitAccount"
+            android:icon="@drawable/creditcard"
+            android:title="خروج" />
+
+    </group>
+</menu>

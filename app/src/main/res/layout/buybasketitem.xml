@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/foodNameInBuyBasket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iranyekanregular"
+            android:text="چیکن مافین" />
+
+        <TextView
+            android:id="@+id/foodDetailsInBuyBasket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iranyekanregular"
+            android:text="فلان1، فلان2، فلان3، فلان4" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/plusbuttonInBuyBasket"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="80dp"
+                android:background="@drawable/plus" />
+
+            <TextView
+                android:id="@+id/ordernumberInBuyBasket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/iranyekanregular"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/minusbuttonInBuyBasket"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:background="@drawable/minus" />
+
+            <TextView
+                android:id="@+id/foodPriceInBuyBasket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/iranyekanregular"
+                android:text="10000 تومان" />
+        </FrameLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
